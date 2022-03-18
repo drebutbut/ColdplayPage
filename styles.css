@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Montserrat:wght@500&display=swap');
+
+body{
+  font-family: "Montserrat";
+}
+
+#main{
+  text-align: center;
+  background: #EEEEEE;
+  padding-top: 50px;
+}
+
+#main h1{
+  font-size: 64px;
+  font-family: "Caveat";
+  padding: 0;
+  margin: 0;
+}
+
+#img-div{
+  background: white;
+  padding:15px;
+}
+
+#image{
+  max-width: 100%;
+  display: block;
+}
+
+#img-caption{
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+#tribute-info{
+  width: 100%;
+  margin: 80px auto;
+}
+
+#tribute-info h2{
+  text-align: center;
+  margin: 10px;
+}
+
+#tribute-info ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#tribute-info li{
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+}
+
+.album{
+  position: relative;
+}
+
+.album .album-cover{
+  width: 250px;
+}
+
+.album .album-overlay{
+  text-align: center;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: .5s;
+}
+
+.album .album-overlay:hover {
+  opacity: 1;
+}
+
+.album .album-overlay #album-title{
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.album .album-overlay #date{
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
