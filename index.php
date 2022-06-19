@@ -1,4 +1,4 @@
-<htmml>
+<html>
     <head>
       <title>Coldplay Tribute Page</title>
       <link rel="stylesheet" href="styles.css">
